@@ -14,9 +14,9 @@ def index():
 		ip = request.access_route
 	else:
    		ip = request.remote_addr
-	syncano = SyncanoApi("cold-dew-135677","c418ff4e58fb13638c549b41300a918fc60aa84e")
-	project_id = "5941"
-	collection_id = "18472"
+	syncano = SyncanoApi("white-sun-672290","92f4c3ae210cee23a24c03f892574fa9957cdf30")
+	project_id = "3964"
+	collection_id = "12784"
 	syncano.data_new(project_id,collection_id=collection_id,title=ip,text=str(datatime.datetime.now()))
 	return render_template("index.html")
 
