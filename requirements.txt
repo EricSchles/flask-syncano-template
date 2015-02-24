@@ -1,11 +1,2 @@
-uritemplate.py==0.2.0
-urllib3==1.7.1
-virtualenv==1.11.6
-w3lib==1.9.0
-webassets==0.7
-wsgiref==0.1.2
-wstools==0.4.3
-wtf-peewee==0.2.3
-xdiagnose==3.6.3build2
 xlrd==0.9.3
 zope.interface==4.0.5
