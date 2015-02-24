@@ -1,5 +1,3 @@
-defusedxml==0.4.1
-dirspec==13.10
 docutils==0.12
 docx==0.2.4
 duplicity==0.6.23
