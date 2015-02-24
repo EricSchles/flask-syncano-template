@@ -1,8 +1,3 @@
-ecdsa==0.11
-flask-peewee==0.6.5
-fpconst==0.7.2
-futures==2.1.6
-gyp==0.1
 html5lib==0.999
 httpie==0.7.2
 httplib2==0.9
