@@ -17,7 +17,7 @@ def index():
 	syncano = SyncanoApi("white-sun-672290","92f4c3ae210cee23a24c03f892574fa9957cdf30")
 	project_id = "3964"
 	collection_id = "12784"
-	syncano.data_new(project_id,collection_id=collection_id,title=ip,text=str(datatime.datetime.now()))
+	syncano.data_new(project_id,collection_id=collection_id,title=ip,text=str(datetime.datetime.now()))
 	return render_template("index.html")
 
 
